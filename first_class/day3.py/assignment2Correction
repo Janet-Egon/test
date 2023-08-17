@@ -1,0 +1,13 @@
+users = []
+
+userInstance = {
+    "username" :"divasUsername",
+    "password" :"diPassword"
+}
+username = str(input("Enter your username :"))
+
+
+instance = {
+    "username" : username,
+    "password" : password
+}

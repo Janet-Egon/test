@@ -1,0 +1,15 @@
+food =['rice','beans','yam']
+newFood1 = str(input("enter your first food : "))
+newFood2 = str(input("enter your second food : "))
+
+food.append(newFood1)
+food.append(newFood2)
+
+food.pop(2)
+food.remove(0)
+
+
+#print(food[1])
+print(food)
+
+#print(type(food))
